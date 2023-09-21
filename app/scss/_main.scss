@@ -1,0 +1,59 @@
+// ==== MAIN ====
+main{
+    overflow: hidden; 
+}
+// ==== DISCOUNTS ====
+.discounts {
+    width: 2120px;
+    left: -368px;
+
+    position: relative;
+    flex-shrink: 0;
+
+    border: 1px solid #590D56;
+}
+
+.discounts--text {
+    padding: 20px 0px;
+    color: #590D56;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+// ==== DESCRIPTION ====
+.description {
+   
+
+    display: flex;
+    justify-content: space-between;
+}
+.description--blok {
+    display: flex;
+    img{
+        margin-right: 20px;
+    }
+    p{
+        min-width: 166px;
+        max-width: 260px;
+        height: 50px;
+
+        color: #242424;
+        font-family: Merriweather;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 154.8%; 
+    }
+    
+}
+.description--last-img{
+    height: 30px;
+    width: 30px;
+    left: -50px;
+
+    position: relative;
+}
